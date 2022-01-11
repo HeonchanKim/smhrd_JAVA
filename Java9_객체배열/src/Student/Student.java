@@ -32,7 +32,7 @@ public class Student {
 	//Override = 부모의 기능 재정의
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", ban=" + ban + ", num=" + num + "]";
+		return name + ", " + ban + "반, " + num + "번";
 	}
 	
 }

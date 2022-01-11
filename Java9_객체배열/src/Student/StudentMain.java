@@ -39,19 +39,5 @@ public class StudentMain {
 			System.out.println(std_arr[i].toString());			
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
