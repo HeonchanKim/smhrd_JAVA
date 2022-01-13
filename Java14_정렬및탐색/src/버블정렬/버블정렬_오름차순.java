@@ -37,7 +37,8 @@ public class 버블정렬_오름차순 {
 			int cnt = 0; //현재 회차에서 교환된 횟수 
 			
 			for (int i = 0; i < arr.length - j; i++) {
-				if(arr[i] > arr[i+1]) { //교환
+				if(arr[i] > arr[i+1]) { //교환	- 오름차순
+					// if(arr[i]<arr[i+1]){ 	- 내림차순
 					int temp; //임시공간
 					temp = arr[i];
 					arr[i] = arr[i+1];
