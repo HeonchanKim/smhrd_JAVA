@@ -8,7 +8,6 @@ import Model.StudentVO;
 
 public class Main {
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
 		StudentDAO dao = new StudentDAO();
 		
@@ -146,7 +145,6 @@ public class Main {
 				}else {
 					System.out.println("학생 삭제 실패했습니다");					
 				}
-				
 				
 			}else if(menu == 6) {
 				System.out.println("종료되었습니다");
